@@ -4,21 +4,24 @@
 
 - [Overview](#overview)
   - [The test](#the-test)
-  - [Screenshot](#screenshot)
 - [My process](#my-process)
+  - [Screenshot](#screenshot)
+  - [Links](#links) 
   - [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### The test
 
-Users should be able to:
+Display the products in a wishlist page
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+## My process
+I created a json files for the data content.
+Created different components with React library and build the UI page.
+I used useState and useEffect React hook for load and change state of products.
+Added styles with Tailwindcss an utility-first css framework.
+Deploy the repo on Vercel.
 
 ### Screenshot
 
@@ -27,15 +30,13 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repository](https://github.com/sariodesign/lampoo-test)
-- Live Site URL: [vercel live app](https://easybank-74ua.vercel.app/)
+- Live Site URL: [vercel live app](https://lampoo-test.vercel.app/)
 
-## My process
-I created a json files for the data content.
-I used useState and useEffect react hook for load and change state of products.
 ### Built with
 
 - [Vitejs](https://vitejs.dev/) - Frontend build tool
 - [React](https://react.dev/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - CSS library
 
 ## Author
 
