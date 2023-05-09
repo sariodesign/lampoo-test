@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+  @apply flex items-center justify-between text-center border-2 border-black mt-auto cursor-pointer p-4 disabled:opacity-50;
+}
+
 .options {
-    @apply flex flex-col bg-white hidden absolute;
-    box-shadow: inset 0 0 0 2px #000;
-    left: -2px;
-    width: calc(100% + 4px);
+  @apply flex flex-col bg-white hidden absolute border-2 border-black z-10;
+  left: -2px;
+  width: calc(100% + 4px);
+}
+
+.header-content {
+  @apply bg-white z-10 absolute w-11/12 -translate-x-full transition-transform xl:relative xl:translate-x-0 xl:w-full;
+}
+
+.nav {
+  @apply flex flex-col gap-y-4 xl:flex-row xl:gap-x-7 xl:gap-y-0;
 }
