@@ -30,7 +30,7 @@ Deploy the repo on Vercel.
 ### Links
 
 - Solution URL: [github repository](https://github.com/sariodesign/lampoo-test)
-- Live Site URL: [vercel live app](https://easybank-74ua.vercel.app/)
+- Live Site URL: [vercel live app](https://lampoo-test.vercel.app/)
 
 ### Built with
 
