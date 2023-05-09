@@ -31,6 +31,7 @@ const Header = () => {
       <img
         className="mx-auto max-w-[130px] h-3.5 xl:max-w-[250px] xl:h-9 xl:mb-4"
         src="https://media.lampoo.com/logo/websites/1/LAMPOO_LOGOTYPE_BLACK_RGB.png"
+        alt="Company logo"
       />
       <div className="header-content group-[.is-open]:translate-x-0 xl:pt-4 xl:border-t-2">
         <nav className="nav">

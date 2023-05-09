@@ -44,7 +44,7 @@ const Product = (props: ProductProps) => {
     <div className="flex flex-col text-center relative md:max-w-[20%]">
       <Head />
       <img src={props.image} alt={props.name} />
-      <h3 className="font-bold">{props.designer}</h3>
+      <h2 className="font-bold">{props.designer}</h2>
       <div>{props.name}</div>
       {props.size ? (
         <div className="mb-4">{props.size}</div>
