@@ -10,12 +10,12 @@ function App() {
   const [whishlistProduct, setWhishlistProduct] = useState<ProductProps[]>([]);
   const fetchData = useRef(true);
   const getWhishlistProducts = async () => {
-    const products = await fetch("../db.json").then((products) =>
+    const products = await fetch(import.meta.env.VITE_BASE_URL).then((products) =>
       products.json()
     );
 
     // set state
-    setWhishlistProduct(products);
+    setWhishlistProduct(products.data.products);
   };
 
   useEffect(() => {
