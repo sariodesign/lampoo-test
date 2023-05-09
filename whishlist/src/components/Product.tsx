@@ -19,7 +19,6 @@ const Product = (props: ProductProps) => {
     setValue(e.target.textContent);
     setActive((current) => !current);
     setDisabledButton(false);
-    console.log(disabledButton);
   };
 
   // Head of product render
@@ -54,7 +53,7 @@ const Product = (props: ProductProps) => {
       )}
       <div className="font-bold">€ {props.price}</div>
       {props.retail && (
-        <div className="text-sm">Est. Retail: € {props.retail}</div>
+        <div className="mb-4 text-sm">Est. Retail: € {props.retail}</div>
       )}
       {props.sizes && (
         <SizeSelect
