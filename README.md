@@ -9,16 +9,11 @@
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The test
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+Display the products in a wishlist page
 
 ### Screenshot
 
@@ -32,10 +27,13 @@ Users should be able to:
 ## My process
 I created a json files for the data content.
 I used useState and useEffect react hook for load and change state of products.
+Added styles with Tailwindcss an utilies-first class library.
+Deploy the repo on Vercel.
 ### Built with
 
 - [Vitejs](https://vitejs.dev/) - Frontend build tool
 - [React](https://react.dev/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - CSS library
 
 ## Author
 
