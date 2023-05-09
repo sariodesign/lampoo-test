@@ -8,6 +8,7 @@
   - [Screenshot](#screenshot)
   - [Links](#links) 
   - [Built with](#built-with)
+- [Setting up](#setting-up)
 - [Author](#author)
 
 ## Overview
@@ -37,6 +38,15 @@ Deploy the repo on Vercel.
 - [Vitejs](https://vitejs.dev/) - Frontend build tool
 - [React](https://react.dev/) - JS library
 - [Tailwindcss](https://tailwindcss.com/) - CSS library
+
+## Setting up
+`git clone https://github.com/sariodesign/lampoo-test`
+
+`cd whishlist`
+
+`yarn && yarn dev`
+
+node version used: 18.15.0
 
 ## Author
 
