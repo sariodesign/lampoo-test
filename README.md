@@ -4,8 +4,9 @@
 
 - [Overview](#overview)
   - [The test](#the-test)
-  - [Screenshot](#screenshot)
 - [My process](#my-process)
+  - [Screenshot](#screenshot)
+  - [Links](#links) 
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -14,6 +15,13 @@
 ### The test
 
 Display the products in a wishlist page
+
+## My process
+I created a json files for the data content.
+Created different components with React library and build the UI page.
+I used useState and useEffect React hook for load and change state of products.
+Added styles with Tailwindcss an utility-first css framework.
+Deploy the repo on Vercel.
 
 ### Screenshot
 
@@ -24,11 +32,6 @@ Display the products in a wishlist page
 - Solution URL: [github repository](https://github.com/sariodesign/lampoo-test)
 - Live Site URL: [vercel live app](https://easybank-74ua.vercel.app/)
 
-## My process
-I created a json files for the data content.
-I used useState and useEffect react hook for load and change state of products.
-Added styles with Tailwindcss an utilies-first class library.
-Deploy the repo on Vercel.
 ### Built with
 
 - [Vitejs](https://vitejs.dev/) - Frontend build tool
