@@ -1,6 +1,17 @@
-import { useState } from 'react';
+interface SelectProps {
+    active: boolean;
+    handlerOpener: () => void;
+    handleValue: (e:any) => void;
+    sizes: SizeProps[];
+    value: string
+}
 
-const SizeSelect = (props) => {    
+interface SizeProps {
+    id: number;
+    name: string
+}
+
+const SizeSelect = (props: SelectProps) => {    
     return ( 
         <div className={`border-2 border-black relative mb-4 ${props.active ? "group is-open" : ""}`}>
             <div className="flex items-center justify-between p-4 cursor-pointer" onClick={props.handlerOpener}>
