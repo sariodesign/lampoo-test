@@ -32,7 +32,7 @@ function App() {
         intro="€100 off your first order of €400"
         code="Code: LAMPOONEW22"
       />
-      <SectionTitle title="Whishlist" />
+      <SectionTitle title="Wishlist" />
       <WishList productList={whishlistProduct} />
     </Layout>
   );
